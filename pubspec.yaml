@@ -1,0 +1,33 @@
+name: static_resources_app
+description: Демонстрация работы со статическими ресурсами (изображения и шрифты) во Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Подключение изображений
+  assets:
+    - assets/images/image1.png
+    - assets/images/image2.png
+    - assets/images/image3.png
+
+  # Подключение пользовательского шрифта
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/custom_font.ttf
+        - asset: assets/fonts/custom_font_bold.ttf
+          weight: 700

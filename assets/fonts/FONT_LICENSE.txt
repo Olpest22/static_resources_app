@@ -1,0 +1,5 @@
+Шрифт: Lora (статические начертания Regular 400 и Bold 700),
+файлы custom_font.ttf и custom_font_bold.ttf.
+Автор: Cyreal. Источник: Google Fonts (https://fonts.google.com/specimen/Lora).
+Лицензия: SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+Шрифт поддерживает латиницу и кириллицу.
